@@ -34,10 +34,10 @@ public class TestMau {
 	HSSFSheet sheet;
 	// Declare A Map Object To Hold TestNG Results
 	Map<String, Object[]> TestNGResults;
-	public static String driverPath = "D:\\hoc tap\\cac mon hoc\\SOF304 _ Kiem thu nang cao\\chromedriver.exe";
-	public static String dataPath = "\\Resources\\Data_Han\\datafile.properties";
-	public static String locatorPath = "\\Resources\\Data_Han\\locator.properties";
-	public static String FileNameExcel = "HanResult";
+	public static String driverPath = "\\Resources\\chromedriver.exe";
+	public static String dataPath = "\\Resources\\Data_Huy\\datafile.properties";
+	public static String locatorPath = "\\Resources\\Data_Huy\\locator.properties";
+	public static String FileNameExcel = "HuyResult";
 	
 	@Test(description = "Open TestNG Demo Website for Login Test", priority = 1)
 	public void lauchWebsite() throws Exception {
@@ -105,7 +105,7 @@ public class TestMau {
 			// Get the object map file
 			uiMap = new UIMap(workingDir + locatorPath);
 			// Setting up chrome driver path
-			System.setProperty("webdriver.chrome.driver", driverPath);
+			System.setProperty("webdriver.chrome.driver", workingDir + driverPath);
 			//Lauching chrome browser
 			driver = new ChromeDriver();
 			driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
