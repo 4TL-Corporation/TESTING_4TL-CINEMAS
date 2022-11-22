@@ -92,7 +92,7 @@
 			</ul>
 			<ul class="nav navbar-nav flex-child-menu menu-right">
 				<c:if test="${not empty adminRole }">
-					<li class="dropdown first"><a
+					<li class="dropdown first" id="nav-page-admin"><a
 						class="btn btn-default dropdown-toggle lv1" data-toggle="dropdown"
 						data-hover="dropdown"> pages <i class="fa fa-angle-down"
 							aria-hidden="true"></i>
@@ -110,7 +110,7 @@
 				</c:if>
 				<c:if test="${not empty user }">
 					<li class=""><a href="Logoff">Logout</a></li>
-					<li class="btn signupLink"><a href="#">Hello!
+					<li class="btn signupLink"><a href="#" class="hello-username">Hello!
 							${user.username}</a></li>
 				</c:if>
 			</ul>

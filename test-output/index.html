@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,8 +39,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+            <a href="#" panel-name="suite-TestSuiteLogin" class="navigator-link">
+              <span class="suite-name border-failed">TestSuiteLogin</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>D:\Temp\testng-eclipse-1734596483\testng-customsuite.xml</span>
+                  <a href="#" panel-name="test-xml-TestSuiteLogin" class="navigator-link ">
+                    <span>D:\Project\TESTING_4TL-CINEMAS\src\test\java\test\Han\testSuiteLogin.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                  <a href="#" panel-name="testlist-TestSuiteLogin" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="group-TestSuiteLogin" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="times-TestSuiteLogin" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-TestSuiteLogin" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-TestSuiteLogin" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-TestSuiteLogin" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -93,31 +93,85 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">12 methods, 3 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-TestSuiteLogin" class="hide-methods failed suite-TestSuiteLogin"> (hide)</a> <!-- hide-methods failed suite-TestSuiteLogin -->
+                      <a href="#" panel-name="suite-TestSuiteLogin" class="show-methods failed suite-TestSuiteLogin"> (show)</a> <!-- show-methods failed suite-TestSuiteLogin -->
+                    </span>
+                    <div class="method-list-content failed suite-TestSuiteLogin">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuiteLogin" title="test.Han.TestLogin" class="method navigator-link" hash-for-method="DoLogin">DoLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuiteLogin" title="test.Han.TestLogin" class="method navigator-link" hash-for-method="isAdmin">isAdmin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuiteLogin" title="test.Han.TestLogin" class="method navigator-link" hash-for-method="isAdmin">isAdmin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-TestSuiteLogin -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-TestSuiteLogin" class="hide-methods passed suite-TestSuiteLogin"> (hide)</a> <!-- hide-methods passed suite-TestSuiteLogin -->
+                      <a href="#" panel-name="suite-TestSuiteLogin" class="show-methods passed suite-TestSuiteLogin"> (show)</a> <!-- show-methods passed suite-TestSuiteLogin -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content passed suite-TestSuiteLogin">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="test.Han.TestHan" class="method navigator-link" hash-for-method="DoLogin">DoLogin</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-TestSuiteLogin" title="test.Han.TestLogin" class="method navigator-link" hash-for-method="DoLogin">DoLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="test.Han.TestHan" class="method navigator-link" hash-for-method="FillLoginDetails">FillLoginDetails</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-TestSuiteLogin" title="test.Han.TestLogin" class="method navigator-link" hash-for-method="DoLogin">DoLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="test.Han.TestHan" class="method navigator-link" hash-for-method="lauchWebsite">lauchWebsite</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-TestSuiteLogin" title="test.Han.TestLogin" class="method navigator-link" hash-for-method="FillLoginDetails_DN1(admin, admin123)">FillLoginDetails_DN1(admin, admin123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuiteLogin" title="test.Han.TestLogin" class="method navigator-link" hash-for-method="FillLoginDetails_DN1(khanh, asd)">FillLoginDetails_DN1(khanh, asd)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuiteLogin" title="test.Han.TestLogin" class="method navigator-link" hash-for-method="FillLoginDetails_DN1(, )">FillLoginDetails_DN1(, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuiteLogin" title="test.Han.TestLogin" class="method navigator-link" hash-for-method="isAdmin">isAdmin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuiteLogin" title="test.Han.TestLogin" class="method navigator-link" hash-for-method="lauchWebsite">lauchWebsite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuiteLogin" title="test.Han.TestLogin" class="method navigator-link" hash-for-method="lauchWebsite">lauchWebsite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestSuiteLogin" title="test.Han.TestLogin" class="method navigator-link" hash-for-method="lauchWebsite">lauchWebsite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestSuiteLogin -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -128,11 +182,61 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+        <div panel-name="suite-TestSuiteLogin" class="panel TestSuiteLogin">
+          <div class="suite-TestSuiteLogin-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.Han.TestLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DoLogin">
+                  </a> <!-- DoLogin -->
+                  <span class="method-name">DoLogin</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+	at test.Han.TestLogin.DoLogin(TestLogin.java:102)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Action)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isAdmin">
+                  </a> <!-- isAdmin -->
+                  <span class="method-name">isAdmin</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+	at test.Han.TestLogin.isAdmin(TestLogin.java:121)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Check Role)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isAdmin">
+                  </a> <!-- isAdmin -->
+                  <span class="method-name">isAdmin</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+	at test.Han.TestLogin.isAdmin(TestLogin.java:121)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                  <em>
+(Check Role)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestSuiteLogin-class-failed -->
+          <div class="suite-TestSuiteLogin-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">test.Han.TestHan</span>
+              <span class="class-name">test.Han.TestLogin</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -141,16 +245,55 @@
                   </a> <!-- DoLogin -->
                   <span class="method-name">DoLogin</span>
                   <em>
-(Perform Login)                  </em>
+(Action)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="FillLoginDetails">
-                  </a> <!-- FillLoginDetails -->
-                  <span class="method-name">FillLoginDetails</span>
+                  <a name="DoLogin">
+                  </a> <!-- DoLogin -->
+                  <span class="method-name">DoLogin</span>
                   <em>
-(Fill the Login Details)                  </em>
+(Action)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FillLoginDetails_DN1(admin, admin123)">
+                  </a> <!-- FillLoginDetails_DN1(admin, admin123) -->
+                  <span class="method-name">FillLoginDetails_DN1</span>
+                  <span class="parameters">(admin, admin123)</span>
+                  <em>
+(Fill data to form login)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FillLoginDetails_DN1(khanh, asd)">
+                  </a> <!-- FillLoginDetails_DN1(khanh, asd) -->
+                  <span class="method-name">FillLoginDetails_DN1</span>
+                  <span class="parameters">(khanh, asd)</span>
+                  <em>
+(Fill data to form login)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="FillLoginDetails_DN1(, )">
+                  </a> <!-- FillLoginDetails_DN1(, ) -->
+                  <span class="method-name">FillLoginDetails_DN1</span>
+                  <span class="parameters">(, )</span>
+                  <em>
+(Fill data to form login)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isAdmin">
+                  </a> <!-- isAdmin -->
+                  <span class="method-name">isAdmin</span>
+                  <em>
+(Check Role)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -159,126 +302,260 @@
                   </a> <!-- lauchWebsite -->
                   <span class="method-name">lauchWebsite</span>
                   <em>
-(Open TestNG Demo Website for Login Test)                  </em>
+(Open chrome and Open Website)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="lauchWebsite">
+                  </a> <!-- lauchWebsite -->
+                  <span class="method-name">lauchWebsite</span>
+                  <em>
+(Open chrome and Open Website)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="lauchWebsite">
+                  </a> <!-- lauchWebsite -->
+                  <span class="method-name">lauchWebsite</span>
+                  <em>
+(Open chrome and Open Website)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-TestSuiteLogin-class-passed -->
+        </div> <!-- panel TestSuiteLogin -->
+        <div panel-name="test-xml-TestSuiteLogin" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Temp\testng-eclipse-1734596483\testng-customsuite.xml</span>
+            <span class="header-content">D:\Project\TESTING_4TL-CINEMAS\src\test\java\test\Han\testSuiteLogin.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+&lt;suite name=&quot;TestSuiteLogin&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;DN1&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;admin123&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;admin&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;test.Han.TestHan&quot;/&gt;
+      &lt;class name=&quot;test.Han.TestLogin&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- DN1 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;DN2&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;asd&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;khanh&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.Han.TestLogin&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DN2 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;DN3&quot;&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;&quot;/&gt;
+    &lt;parameter name=&quot;username&quot; value=&quot;&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.Han.TestLogin&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DN3 --&gt;
+&lt;/suite&gt; &lt;!-- TestSuiteLogin --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-TestSuiteLogin" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for TestSuiteLogin</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">DN1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DN2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DN3 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-TestSuiteLogin" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for TestSuiteLogin</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-TestSuiteLogin" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for TestSuiteLogin</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_TestSuiteLogin');
+function tableData_TestSuiteLogin() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(12);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'DoLogin')
-data.setCell(0, 2, 'test.Han.TestHan')
-data.setCell(0, 3, 16339);
+data.setCell(0, 2, 'test.Han.TestLogin')
+data.setCell(0, 3, 7105);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'lauchWebsite')
-data.setCell(1, 2, 'test.Han.TestHan')
-data.setCell(1, 3, 7808);
+data.setCell(1, 1, 'DoLogin')
+data.setCell(1, 2, 'test.Han.TestLogin')
+data.setCell(1, 3, 6787);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'FillLoginDetails')
-data.setCell(2, 2, 'test.Han.TestHan')
-data.setCell(2, 3, 1318);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(2, 1, 'DoLogin')
+data.setCell(2, 2, 'test.Han.TestLogin')
+data.setCell(2, 3, 5350);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'isAdmin')
+data.setCell(3, 2, 'test.Han.TestLogin')
+data.setCell(3, 3, 5045);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'isAdmin')
+data.setCell(4, 2, 'test.Han.TestLogin')
+data.setCell(4, 3, 5039);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'lauchWebsite')
+data.setCell(5, 2, 'test.Han.TestLogin')
+data.setCell(5, 3, 4185);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'lauchWebsite')
+data.setCell(6, 2, 'test.Han.TestLogin')
+data.setCell(6, 3, 4101);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'lauchWebsite')
+data.setCell(7, 2, 'test.Han.TestLogin')
+data.setCell(7, 3, 2656);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'isAdmin')
+data.setCell(8, 2, 'test.Han.TestLogin')
+data.setCell(8, 3, 2037);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'FillLoginDetails_DN1')
+data.setCell(9, 2, 'test.Han.TestLogin')
+data.setCell(9, 3, 1187);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'FillLoginDetails_DN1')
+data.setCell(10, 2, 'test.Han.TestLogin')
+data.setCell(10, 3, 1179);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'FillLoginDetails_DN1')
+data.setCell(11, 2, 'test.Han.TestLogin')
+data.setCell(11, 3, 1178);
+window.suiteTableData['TestSuiteLogin']= { tableData: data, tableDiv: 'times-div-TestSuiteLogin'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 25 seconds</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 45 seconds</span>
+              <div id="times-div-TestSuiteLogin">
+              </div> <!-- times-div-TestSuiteLogin -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-TestSuiteLogin" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for TestSuiteLogin</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-TestSuiteLogin" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-TestSuiteLogin" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">test.Han.TestHan</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">test.Han.TestLogin</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">suiteSetUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">lauchWebsite</span>
-                <span class="method-start">4374 ms</span>
+                <span class="method-start">1410 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">FillLoginDetails</span>
-                <span class="method-start">12188 ms</span>
+                <span class="method-name">FillLoginDetails_DN1(admin, admin123)</span>
+                <span class="method-start">4072 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">DoLogin</span>
-                <span class="method-start">13508 ms</span>
+                <span class="method-start">5253 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">isAdmin</span>
+                <span class="method-start">10605 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">suiteTearDown</span>
-                <span class="method-start">29850 ms</span>
+                <span class="method-start">12643 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">suiteSetUp</span>
+                <span class="method-start">28989 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">lauchWebsite</span>
+                <span class="method-start">29585 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FillLoginDetails_DN1(khanh, asd)</span>
+                <span class="method-start">33688 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DoLogin</span>
+                <span class="method-start">34876 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">isAdmin</span>
+                <span class="method-start">41664 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">suiteTearDown</span>
+                <span class="method-start">46710 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">suiteSetUp</span>
+                <span class="method-start">62965 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">lauchWebsite</span>
+                <span class="method-start">63573 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">FillLoginDetails_DN1(, )</span>
+                <span class="method-start">67760 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">DoLogin</span>
+                <span class="method-start">68939 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">isAdmin</span>
+                <span class="method-start">76045 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">suiteTearDown</span>
+                <span class="method-start">81085 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

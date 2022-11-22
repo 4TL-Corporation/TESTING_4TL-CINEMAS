@@ -1,33 +1,237 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="9" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-22T11:47:04 ICT" name="Default suite" finished-at="2022-11-22T11:47:35 ICT" duration-ms="30188">
+  <suite started-at="2022-11-22T15:14:41 ICT" name="TestSuiteLogin" finished-at="2022-11-22T15:16:02 ICT" duration-ms="81292">
     <groups>
     </groups>
-    <test started-at="2022-11-22T11:47:04 ICT" name="Default test" finished-at="2022-11-22T11:47:35 ICT" duration-ms="30188">
-      <class name="test.Han.TestHan">
-        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:test.Han.TestHan@1bd4fdd]" started-at="2022-11-22T11:47:04 ICT" name="suiteSetUp" finished-at="2022-11-22T11:47:09 ICT" duration-ms="4362" status="PASS">
+    <test started-at="2022-11-22T15:14:41 ICT" name="DN1" finished-at="2022-11-22T15:15:10 ICT" duration-ms="28999">
+      <class name="test.Han.TestLogin">
+        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:test.Han.TestLogin@6aeb35e6]" started-at="2022-11-22T15:14:41 ICT" name="suiteSetUp" finished-at="2022-11-22T15:14:42 ICT" duration-ms="1403" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteSetUp -->
-        <test-method signature="lauchWebsite()[pri:1, instance:test.Han.TestHan@1bd4fdd]" started-at="2022-11-22T11:47:09 ICT" name="lauchWebsite" description="Open TestNG Demo Website for Login Test" finished-at="2022-11-22T11:47:17 ICT" duration-ms="7808" status="PASS">
+        <test-method signature="lauchWebsite()[pri:1, instance:test.Han.TestLogin@6aeb35e6]" started-at="2022-11-22T15:14:42 ICT" name="lauchWebsite" description="Open chrome and Open Website" finished-at="2022-11-22T15:14:45 ICT" duration-ms="2656" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lauchWebsite -->
-        <test-method signature="FillLoginDetails()[pri:2, instance:test.Han.TestHan@1bd4fdd]" started-at="2022-11-22T11:47:17 ICT" name="FillLoginDetails" description="Fill the Login Details" finished-at="2022-11-22T11:47:18 ICT" duration-ms="1318" status="PASS">
+        <test-method signature="FillLoginDetails_DN1(java.lang.String,java.lang.String)[pri:2, instance:test.Han.TestLogin@6aeb35e6]" started-at="2022-11-22T15:14:45 ICT" name="FillLoginDetails_DN1" description="Fill data to form login" finished-at="2022-11-22T15:14:46 ICT" duration-ms="1179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FillLoginDetails -->
-        <test-method signature="DoLogin()[pri:3, instance:test.Han.TestHan@1bd4fdd]" started-at="2022-11-22T11:47:18 ICT" name="DoLogin" description="Perform Login" finished-at="2022-11-22T11:47:34 ICT" duration-ms="16339" status="PASS">
+        </test-method> <!-- FillLoginDetails_DN1 -->
+        <test-method signature="DoLogin()[pri:3, instance:test.Han.TestLogin@6aeb35e6]" started-at="2022-11-22T15:14:46 ICT" name="DoLogin" description="Action" finished-at="2022-11-22T15:14:51 ICT" duration-ms="5350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoLogin -->
-        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:test.Han.TestHan@1bd4fdd]" started-at="2022-11-22T11:47:34 ICT" name="suiteTearDown" finished-at="2022-11-22T11:47:35 ICT" duration-ms="308" status="PASS">
+        <test-method signature="isAdmin()[pri:4, instance:test.Han.TestLogin@6aeb35e6]" started-at="2022-11-22T15:14:51 ICT" name="isAdmin" description="Check Role" finished-at="2022-11-22T15:14:53 ICT" duration-ms="2037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isAdmin -->
+        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:test.Han.TestLogin@6aeb35e6]" started-at="2022-11-22T15:14:53 ICT" name="suiteTearDown" finished-at="2022-11-22T15:15:10 ICT" duration-ms="16329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteTearDown -->
-      </class> <!-- test.Han.TestHan -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- test.Han.TestLogin -->
+    </test> <!-- DN1 -->
+    <test started-at="2022-11-22T15:15:10 ICT" name="DN2" finished-at="2022-11-22T15:15:43 ICT" duration-ms="33971">
+      <class name="test.Han.TestLogin">
+        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:test.Han.TestLogin@4afcd809]" started-at="2022-11-22T15:15:10 ICT" name="suiteSetUp" finished-at="2022-11-22T15:15:10 ICT" duration-ms="596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method signature="lauchWebsite()[pri:1, instance:test.Han.TestLogin@4afcd809]" started-at="2022-11-22T15:15:10 ICT" name="lauchWebsite" description="Open chrome and Open Website" finished-at="2022-11-22T15:15:14 ICT" duration-ms="4101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchWebsite -->
+        <test-method signature="FillLoginDetails_DN1(java.lang.String,java.lang.String)[pri:2, instance:test.Han.TestLogin@4afcd809]" started-at="2022-11-22T15:15:14 ICT" name="FillLoginDetails_DN1" description="Fill data to form login" finished-at="2022-11-22T15:15:15 ICT" duration-ms="1187" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[khanh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillLoginDetails_DN1 -->
+        <test-method signature="DoLogin()[pri:3, instance:test.Han.TestLogin@4afcd809]" started-at="2022-11-22T15:15:15 ICT" name="DoLogin" description="Action" finished-at="2022-11-22T15:15:22 ICT" duration-ms="6787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoLogin -->
+        <test-method signature="isAdmin()[pri:4, instance:test.Han.TestLogin@4afcd809]" started-at="2022-11-22T15:15:22 ICT" name="isAdmin" description="Check Role" finished-at="2022-11-22T15:15:27 ICT" duration-ms="5045" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:23)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)
+at test.Han.TestLogin.isAdmin(TestLogin.java:121)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isAdmin -->
+        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:test.Han.TestLogin@4afcd809]" started-at="2022-11-22T15:15:27 ICT" name="suiteTearDown" finished-at="2022-11-22T15:15:43 ICT" duration-ms="16248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- test.Han.TestLogin -->
+    </test> <!-- DN2 -->
+    <test started-at="2022-11-22T15:15:44 ICT" name="DN3" finished-at="2022-11-22T15:16:02 ICT" duration-ms="18301">
+      <class name="test.Han.TestLogin">
+        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:test.Han.TestLogin@1d296da]" started-at="2022-11-22T15:15:44 ICT" name="suiteSetUp" finished-at="2022-11-22T15:15:44 ICT" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method signature="lauchWebsite()[pri:1, instance:test.Han.TestLogin@1d296da]" started-at="2022-11-22T15:15:44 ICT" name="lauchWebsite" description="Open chrome and Open Website" finished-at="2022-11-22T15:15:48 ICT" duration-ms="4185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchWebsite -->
+        <test-method signature="FillLoginDetails_DN1(java.lang.String,java.lang.String)[pri:2, instance:test.Han.TestLogin@1d296da]" started-at="2022-11-22T15:15:48 ICT" name="FillLoginDetails_DN1" description="Fill data to form login" finished-at="2022-11-22T15:15:49 ICT" duration-ms="1178" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillLoginDetails_DN1 -->
+        <test-method signature="DoLogin()[pri:3, instance:test.Han.TestLogin@1d296da]" started-at="2022-11-22T15:15:49 ICT" name="DoLogin" description="Action" finished-at="2022-11-22T15:15:57 ICT" duration-ms="7105" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:23)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)
+at test.Han.TestLogin.DoLogin(TestLogin.java:102)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoLogin -->
+        <test-method signature="isAdmin()[pri:4, instance:test.Han.TestLogin@1d296da]" started-at="2022-11-22T15:15:57 ICT" name="isAdmin" description="Check Role" finished-at="2022-11-22T15:16:02 ICT" duration-ms="5039" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:23)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)
+at test.Han.TestLogin.isAdmin(TestLogin.java:121)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isAdmin -->
+        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:test.Han.TestLogin@1d296da]" started-at="2022-11-22T15:16:02 ICT" name="suiteTearDown" finished-at="2022-11-22T15:16:02 ICT" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- test.Han.TestLogin -->
+    </test> <!-- DN3 -->
+  </suite> <!-- TestSuiteLogin -->
 </testng-results>

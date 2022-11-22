@@ -43,7 +43,7 @@
 		<div class="row">
 			<jsp:include page="/common/error.jsp"></jsp:include>
 			<div class="row">
-				<button type="submit">sign up</button>
+				<button type="submit" class="register_btn">sign up</button>
 			</div>
 		</div>
 	</form>
