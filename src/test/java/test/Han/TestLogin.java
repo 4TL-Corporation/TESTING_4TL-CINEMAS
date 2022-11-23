@@ -62,7 +62,7 @@ public class TestLogin {
 
 	@Parameters({ "username", "password" })
 	@Test(description = "Fill data to form login", priority = 2)
-	public void FillLoginDetails_DN1(String username, String password) throws Exception {
+	public void FillLoginDetails(String username, String password) throws Exception {
 		try {
 			// Get the username element
 			WebElement username_field = driver.findElement(uiMap.getLocator("Username_field"));

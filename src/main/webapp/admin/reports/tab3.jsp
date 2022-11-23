@@ -10,7 +10,7 @@
 			<div class="col">
 				<div class="form-inline">
 					<div class="form-group">
-						<label>Video Title <select name="videoIDshare" id=""
+						<label>Video Title <select name="videoIDshare" id="videoIDshare"
 							class="form-control ml-3" >
 								<c:forEach var="item" items="${vidList }">
 									<option value="${item.videoID }"
