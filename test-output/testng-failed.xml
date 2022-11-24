@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.Khanh.Test_Editing_Delete_VD">
+      <class name="test.Khanh.TestSlider">
         <methods>
           <include name="suiteSetUp"/>
           <include name="suiteTearDown"/>
-          <include name="DeleteVideoOnTable"/>
+          <include name="Button_Detail"/>
         </methods>
-      </class> <!-- test.Khanh.Test_Editing_Delete_VD -->
+      </class> <!-- test.Khanh.TestSlider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
