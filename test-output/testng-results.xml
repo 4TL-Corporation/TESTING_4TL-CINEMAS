@@ -1,33 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-23T00:01:41 ICT" name="Default suite" finished-at="2022-11-23T00:01:55 ICT" duration-ms="13428">
+  <suite started-at="2022-11-25T00:03:51 ICT" name="Default suite" finished-at="2022-11-25T00:03:59 ICT" duration-ms="8458">
     <groups>
     </groups>
-    <test started-at="2022-11-23T00:01:41 ICT" name="Default test" finished-at="2022-11-23T00:01:55 ICT" duration-ms="13428">
-      <class name="test.Khanh.TestSlider">
-        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:test.Khanh.TestSlider@4f83df68]" started-at="2022-11-23T00:01:41 ICT" name="suiteSetUp" finished-at="2022-11-23T00:01:44 ICT" duration-ms="3100" status="PASS">
+    <test started-at="2022-11-25T00:03:51 ICT" name="Default test" finished-at="2022-11-25T00:03:59 ICT" duration-ms="8458">
+      <class name="test.Khanh.Test_Editing_Delete_VD">
+        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:test.Khanh.Test_Editing_Delete_VD@6cf0e0ba]" started-at="2022-11-25T00:03:51 ICT" name="suiteSetUp" finished-at="2022-11-25T00:03:52 ICT" duration-ms="1772" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteSetUp -->
-        <test-method signature="lauchWebsite()[pri:1, instance:test.Khanh.TestSlider@4f83df68]" started-at="2022-11-23T00:01:44 ICT" name="lauchWebsite" description="Open TestNG Demo Website" finished-at="2022-11-23T00:01:50 ICT" duration-ms="5558" status="PASS">
+        <test-method signature="OpenWebsite()[pri:1, instance:test.Khanh.Test_Editing_Delete_VD@6cf0e0ba]" started-at="2022-11-25T00:03:52 ICT" name="OpenWebsite" description="Open chrome and Open Website" finished-at="2022-11-25T00:03:54 ICT" duration-ms="2147" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- lauchWebsite -->
-        <test-method signature="Button_Slide()[pri:2, instance:test.Khanh.TestSlider@4f83df68]" started-at="2022-11-23T00:01:50 ICT" name="Button_Slide" description="Clik the button on slider" finished-at="2022-11-23T00:01:52 ICT" duration-ms="2304" status="PASS">
+        </test-method> <!-- OpenWebsite -->
+        <test-method signature="Fill_VideoEdit_Detail()[pri:2, instance:test.Khanh.Test_Editing_Delete_VD@6cf0e0ba]" started-at="2022-11-25T00:03:54 ICT" name="Fill_VideoEdit_Detail" description="Fill data to form Video Editing" finished-at="2022-11-25T00:03:55 ICT" duration-ms="346" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Button_Slide -->
-        <test-method signature="Button_Detail()[pri:3, instance:test.Khanh.TestSlider@4f83df68]" started-at="2022-11-23T00:01:52 ICT" name="Button_Detail" description="Clik the button more detail on slider" finished-at="2022-11-23T00:01:54 ICT" duration-ms="1364" status="PASS">
+        </test-method> <!-- Fill_VideoEdit_Detail -->
+        <test-method signature="DoCreate()[pri:3, instance:test.Khanh.Test_Editing_Delete_VD@6cf0e0ba]" started-at="2022-11-25T00:03:55 ICT" name="DoCreate" description="Insert Video" finished-at="2022-11-25T00:03:56 ICT" duration-ms="1438" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Button_Detail -->
-        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:test.Khanh.TestSlider@4f83df68]" started-at="2022-11-23T00:01:54 ICT" name="suiteTearDown" finished-at="2022-11-23T00:01:55 ICT" duration-ms="1013" status="PASS">
+        </test-method> <!-- DoCreate -->
+        <test-method signature="DeleteVideoOnTable()[pri:4, instance:test.Khanh.Test_Editing_Delete_VD@6cf0e0ba]" started-at="2022-11-25T00:03:56 ICT" name="DeleteVideoOnTable" description="Delete Video" finished-at="2022-11-25T00:03:59 ICT" duration-ms="2380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteVideoOnTable -->
+        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:test.Khanh.Test_Editing_Delete_VD@6cf0e0ba]" started-at="2022-11-25T00:03:59 ICT" name="suiteTearDown" finished-at="2022-11-25T00:03:59 ICT" duration-ms="328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteTearDown -->
-      </class> <!-- test.Khanh.TestSlider -->
+      </class> <!-- test.Khanh.Test_Editing_Delete_VD -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
