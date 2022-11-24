@@ -37,10 +37,10 @@
 				</div>
 				<div class="btn-transform transform-vertical">
 					<div>
-						<a  href="MovieSingle?id=${param.id}" class="item item-1 redbtn">more detail</a>
+						<a id="${param.id}" href="MovieSingle?id=${param.id}" class="item item-1 redbtn">more detail</a>
 					</div>
 					<div>
-						<a href="MovieSingle?id=${param.id}" class="item item-2 redbtn hvrbtn">more detail</a>
+						<a id="${param.id}" href="MovieSingle?id=${param.id}" class="item item-2 redbtn hvrbtn">more detail</a>
 					</div>
 				</div>
 			</div>
