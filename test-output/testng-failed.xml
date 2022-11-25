@@ -1,52 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<<<<<<< HEAD
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [TestSuiteLogin]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="DN2(failed)">
+    <parameter name="password" value="asd"/>
+    <parameter name="username" value="khanh"/>
     <classes>
-      <class name="test.Khanh.TestSlider">
+      <class name="test.Han.TestLogin">
         <methods>
+          <include name="isAdmin"/>
           <include name="suiteSetUp"/>
           <include name="suiteTearDown"/>
-          <include name="Button_Detail"/>
         </methods>
-      </class> <!-- test.Khanh.TestSlider -->
+      </class> <!-- test.Han.TestLogin -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
-=======
-<suite name="Failed suite [TestSuiteThongKe]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Favorites Users(failed)">
-    <parameter name="xpath_TableReport" value="Xpath_tableReport__FavUsers"/>
-    <parameter name="tab" value="TabFavoriteUser_button"/>
-    <parameter name="xpath_ReportButton" value="Xpath_buttonReport_FavUsers"/>
-    <parameter name="videoTitle" value="Love Thunder 2"/>
-    <parameter name="selectName" value="Select_Tag_FavUsers"/>
+  </test> <!-- DN2(failed) -->
+  <test thread-count="5" name="DN3(failed)">
+    <parameter name="password" value=""/>
+    <parameter name="username" value=""/>
     <classes>
-      <class name="test.Han.TestThongKe">
+      <class name="test.Han.TestLogin">
         <methods>
+          <include name="isAdmin"/>
           <include name="suiteSetUp"/>
           <include name="suiteTearDown"/>
-          <include name="Action" invocation-numbers="0"/>
+          <include name="DoLogin"/>
         </methods>
-      </class> <!-- test.Han.TestThongKe -->
+      </class> <!-- test.Han.TestLogin -->
     </classes>
-  </test> <!-- Favorites Users(failed) -->
-  <test thread-count="5" name="Share Friends(failed)">
-    <parameter name="xpath_TableReport" value="Xpath_tableReport__ShareFr"/>
-    <parameter name="tab" value="TabShareFr_button"/>
-    <parameter name="xpath_ReportButton" value="Xpath_buttonReport_ShareFr"/>
-    <parameter name="videoTitle" value="Love Thunder 2"/>
-    <parameter name="selectName" value="Select_Tag_ShareFr"/>
-    <classes>
-      <class name="test.Han.TestThongKe">
-        <methods>
-          <include name="suiteSetUp"/>
-          <include name="suiteTearDown"/>
-          <include name="Action" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- test.Han.TestThongKe -->
-    </classes>
-  </test> <!-- Share Friends(failed) -->
-</suite> <!-- Failed suite [TestSuiteThongKe] -->
->>>>>>> origin/Hân
+  </test> <!-- DN3(failed) -->
+</suite> <!-- Failed suite [TestSuiteLogin] -->
