@@ -3,6 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="test.Khanh.TestSlider">
         <methods>
           <include name="suiteSetUp"/>
@@ -10,6 +11,15 @@
           <include name="Button_Detail"/>
         </methods>
       </class> <!-- test.Khanh.TestSlider -->
+=======
+      <class name="test.Han.TestThongKe">
+        <methods>
+          <include name="suiteSetUp"/>
+          <include name="suiteTearDown"/>
+          <include name="Action"/>
+        </methods>
+      </class> <!-- test.Han.TestThongKe -->
+>>>>>>> origin/Hân
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

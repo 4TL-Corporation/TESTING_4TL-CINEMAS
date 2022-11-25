@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuiteThongKe">
+	<test thread-count="5" name="Favorites Users">
+		<parameter name="tab" value="TabFavoriteUser_button"></parameter>
+		<parameter name="tabname" value="favoriteUsers"></parameter>
+		<parameter name="selectName" value="Select_Tag_FavUsers"></parameter>
+		<parameter name="videoTitle" value="Love Thunder 2"></parameter>
+		<classes>
+			<class name="test.Han.TestThongKe" />
+		</classes>
+	</test> <!-- Favorites Users -->
+	
+	<test thread-count="5" name="Share Friends">
+		<parameter name="tab" value="TabShareFr_button"></parameter>
+		<parameter name="tabname" value="shareFriends"></parameter>
+		<parameter name="selectName" value="Select_Tag_ShareFr"></parameter>
+		<parameter name="videoTitle" value="Love Thunder 2"></parameter>
+		<classes>
+			<class name="test.Han.TestThongKe" />
+		</classes>
+	</test> <!-- Share Friends -->
+</suite> <!-- TestSuiteThongKe -->

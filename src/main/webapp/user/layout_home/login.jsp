@@ -33,7 +33,7 @@
 		<div class="row">
 			<jsp:include page="/common/error.jsp"></jsp:include>
 			
-			<button type="submit" >Login</button>
+			<button type="submit" class="login_btn">Login</button>
 			
 		</div>
 		<br />
