@@ -20,6 +20,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.AssertJUnit;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import test.TaiNguyen.UIMap;
@@ -53,21 +54,22 @@ public class Test_Editing_Delete_VD {
 			AssertJUnit.assertTrue(false);
 		}
 	}
-
+	
+	@Parameters({ "VideoID", "Title", "View", "Description", "Image" })
 	@Test(description = "Fill data to form Video Editing", priority = 2)
-	public void Fill_VideoEdit_Detail() throws Exception {
+	public void Fill_VideoEdit_Detail(String VideoID, String Title,String View, String Description,String Image) throws Exception {
 		try {
 			// Get and fill the videoID element
 			WebElement youtubeID_field = driver.findElement(By.xpath("//*[@id=\"videoID\"]"));
-			youtubeID_field.sendKeys(datafile.getData("VideoID"));
+			youtubeID_field.sendKeys(VideoID);
 
 			// Get and fill the title element
 			WebElement videoTitle_field = driver.findElement(By.xpath("//*[@id=\"title\"]"));
-			videoTitle_field.sendKeys(datafile.getData("Title"));
+			videoTitle_field.sendKeys(Title);
 
 			// Get and fill the view count element
 			WebElement viewCount_field = driver.findElement(By.xpath("//*[@id=\"views\"]"));
-			viewCount_field.sendKeys(datafile.getData("View"));
+			viewCount_field.sendKeys(View);
 
 			// Get and fill the status element
 			WebElement status = driver.findElement(By.xpath("//input[@id= 'active']"));
@@ -78,11 +80,11 @@ public class Test_Editing_Delete_VD {
 
 			// Get and fill the description element
 			WebElement description_field = driver.findElement(By.xpath("//*[@id=\"description\"]"));
-			description_field.sendKeys(datafile.getData("Description"));
+			description_field.sendKeys(Description);
 
 			// Get and fill the image element
 			WebElement img = driver.findElement(By.xpath("//*[@id= 'cover']"));
-			img.sendKeys(System.getProperty("user.dir") + datafile.getData("Image"));
+			img.sendKeys(System.getProperty("user.dir") + Image);
 
 			TestNGResults.put("3",
 					new Object[] { 2d, "Fill data to form Video Editing ", "data has been filled", "Pass" });

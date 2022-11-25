@@ -52,7 +52,7 @@
 										name="videoID" id="videoID" aria-describedby="videoID"
 										placeholder="Youtube ID" required>
 									<div class="valid-feedback">Looks good!</div>
-									<div class="invalid-feedback">Please fill in Video ID.</div>
+									<div id="invalid" class="invalid-feedback">Please fill in Video ID.</div>
 								</div>
 								<div class="form-group">
 									<label for="title">Video Title</label> <input type="text"

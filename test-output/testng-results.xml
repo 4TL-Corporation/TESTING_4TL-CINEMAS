@@ -1,33 +1,318 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="12" passed="8" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-25T12:30:07 ICT" name="TestLoginCMSFpoly" finished-at="2022-11-25T12:30:14 ICT" duration-ms="7225">
+  <suite started-at="2022-11-25T17:44:23 ICT" name="TestSuiteInsertVD" finished-at="2022-11-25T17:45:20 ICT" duration-ms="57029">
     <groups>
     </groups>
-    <test started-at="2022-11-25T12:30:07 ICT" name="TestLoginCMSFpoly" finished-at="2022-11-25T12:30:14 ICT" duration-ms="7225">
-      <class name="test.Han.TestLoginWebCMSPoly">
-        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:test.Han.TestLoginWebCMSPoly@293a5bf6]" started-at="2022-11-25T12:30:07 ICT" name="suiteSetUp" finished-at="2022-11-25T12:30:09 ICT" duration-ms="1840" status="PASS">
+    <test started-at="2022-11-25T17:44:23 ICT" name="TM1" finished-at="2022-11-25T17:44:47 ICT" duration-ms="23999">
+      <class name="test.Khanh.Test_Editing_Delete_VD">
+        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:test.Khanh.Test_Editing_Delete_VD@74f0ea28]" started-at="2022-11-25T17:44:23 ICT" name="suiteSetUp" finished-at="2022-11-25T17:44:24 ICT" duration-ms="1315" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteSetUp -->
-        <test-method is-config="true" signature="lauchWebsite()[pri:0, instance:test.Han.TestLoginWebCMSPoly@293a5bf6]" started-at="2022-11-25T12:30:09 ICT" name="lauchWebsite" description="Open chrome and Open Website" finished-at="2022-11-25T12:30:10 ICT" duration-ms="1216" status="PASS">
+        <test-method signature="OpenWebsite()[pri:1, instance:test.Khanh.Test_Editing_Delete_VD@74f0ea28]" started-at="2022-11-25T17:44:24 ICT" name="OpenWebsite" description="Open chrome and Open Website" finished-at="2022-11-25T17:44:26 ICT" duration-ms="2181" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- lauchWebsite -->
-        <test-method signature="FillLoginDetails()[pri:0, instance:test.Han.TestLoginWebCMSPoly@293a5bf6]" started-at="2022-11-25T12:30:10 ICT" name="FillLoginDetails" description="Fill data to form login" finished-at="2022-11-25T12:30:12 ICT" duration-ms="1326" status="PASS">
+        </test-method> <!-- OpenWebsite -->
+        <test-method signature="Fill_VideoEdit_Detail(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test.Khanh.Test_Editing_Delete_VD@74f0ea28]" started-at="2022-11-25T17:44:26 ICT" name="Fill_VideoEdit_Detail" description="Fill data to form Video Editing" finished-at="2022-11-25T17:44:27 ICT" duration-ms="335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Wakanda Forever]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Wakanda Forever]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[/src/main/webapp/user/images/uploads/wakanda.jpg]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FillLoginDetails -->
-        <test-method is-config="true" signature="DoLogin()[pri:0, instance:test.Han.TestLoginWebCMSPoly@293a5bf6]" started-at="2022-11-25T12:30:12 ICT" name="DoLogin" description="Action" finished-at="2022-11-25T12:30:14 ICT" duration-ms="2407" status="PASS">
+        </test-method> <!-- Fill_VideoEdit_Detail -->
+        <test-method signature="DoCreate()[pri:3, instance:test.Khanh.Test_Editing_Delete_VD@74f0ea28]" started-at="2022-11-25T17:44:27 ICT" name="DoCreate" description="Insert Video" finished-at="2022-11-25T17:44:28 ICT" duration-ms="1443" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- DoLogin -->
-        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:test.Han.TestLoginWebCMSPoly@293a5bf6]" started-at="2022-11-25T12:30:14 ICT" name="suiteTearDown" finished-at="2022-11-25T12:30:14 ICT" duration-ms="393" status="PASS">
+        </test-method> <!-- DoCreate -->
+        <test-method signature="DeleteVideoOnTable()[pri:4, instance:test.Khanh.Test_Editing_Delete_VD@74f0ea28]" started-at="2022-11-25T17:44:28 ICT" name="DeleteVideoOnTable" description="Delete Video" finished-at="2022-11-25T17:44:31 ICT" duration-ms="2388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteVideoOnTable -->
+        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:test.Khanh.Test_Editing_Delete_VD@74f0ea28]" started-at="2022-11-25T17:44:31 ICT" name="suiteTearDown" finished-at="2022-11-25T17:44:47 ICT" duration-ms="16301" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteTearDown -->
-      </class> <!-- test.Han.TestLoginWebCMSPoly -->
-    </test> <!-- TestLoginCMSFpoly -->
-  </suite> <!-- TestLoginCMSFpoly -->
+      </class> <!-- test.Khanh.Test_Editing_Delete_VD -->
+    </test> <!-- TM1 -->
+    <test started-at="2022-11-25T17:44:47 ICT" name="TM2" finished-at="2022-11-25T17:45:03 ICT" duration-ms="16484">
+      <class name="test.Khanh.Test_Editing_Delete_VD">
+        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:test.Khanh.Test_Editing_Delete_VD@5bf0d49]" started-at="2022-11-25T17:44:47 ICT" name="suiteSetUp" finished-at="2022-11-25T17:44:48 ICT" duration-ms="636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method signature="OpenWebsite()[pri:1, instance:test.Khanh.Test_Editing_Delete_VD@5bf0d49]" started-at="2022-11-25T17:44:48 ICT" name="OpenWebsite" description="Open chrome and Open Website" finished-at="2022-11-25T17:44:50 ICT" duration-ms="2144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenWebsite -->
+        <test-method signature="Fill_VideoEdit_Detail(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test.Khanh.Test_Editing_Delete_VD@5bf0d49]" started-at="2022-11-25T17:44:50 ICT" name="Fill_VideoEdit_Detail" description="Fill data to form Video Editing" finished-at="2022-11-25T17:44:50 ICT" duration-ms="272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fill_VideoEdit_Detail -->
+        <test-method signature="DoCreate()[pri:3, instance:test.Khanh.Test_Editing_Delete_VD@5bf0d49]" started-at="2022-11-25T17:44:50 ICT" name="DoCreate" description="Insert Video" finished-at="2022-11-25T17:44:56 ICT" duration-ms="6100" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:23)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)
+at test.Khanh.Test_Editing_Delete_VD.DoCreate(Test_Editing_Delete_VD.java:115)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoCreate -->
+        <test-method signature="DeleteVideoOnTable()[pri:4, instance:test.Khanh.Test_Editing_Delete_VD@5bf0d49]" started-at="2022-11-25T17:44:56 ICT" name="DeleteVideoOnTable" description="Delete Video" finished-at="2022-11-25T17:45:03 ICT" duration-ms="7103" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:23)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)
+at test.Khanh.Test_Editing_Delete_VD.DeleteVideoOnTable(Test_Editing_Delete_VD.java:141)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteVideoOnTable -->
+        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:test.Khanh.Test_Editing_Delete_VD@5bf0d49]" started-at="2022-11-25T17:45:03 ICT" name="suiteTearDown" finished-at="2022-11-25T17:45:03 ICT" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- test.Khanh.Test_Editing_Delete_VD -->
+    </test> <!-- TM2 -->
+    <test started-at="2022-11-25T17:45:03 ICT" name="TM3" finished-at="2022-11-25T17:45:20 ICT" duration-ms="16533">
+      <class name="test.Khanh.Test_Editing_Delete_VD">
+        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:test.Khanh.Test_Editing_Delete_VD@75d4a5c2]" started-at="2022-11-25T17:45:03 ICT" name="suiteSetUp" finished-at="2022-11-25T17:45:04 ICT" duration-ms="655" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method signature="OpenWebsite()[pri:1, instance:test.Khanh.Test_Editing_Delete_VD@75d4a5c2]" started-at="2022-11-25T17:45:04 ICT" name="OpenWebsite" description="Open chrome and Open Website" finished-at="2022-11-25T17:45:06 ICT" duration-ms="2139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenWebsite -->
+        <test-method signature="Fill_VideoEdit_Detail(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test.Khanh.Test_Editing_Delete_VD@75d4a5c2]" started-at="2022-11-25T17:45:06 ICT" name="Fill_VideoEdit_Detail" description="Fill data to form Video Editing" finished-at="2022-11-25T17:45:06 ICT" duration-ms="321" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Wakanda Forever]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[/src/main/webapp/user/images/uploads/wakanda.jpg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Fill_VideoEdit_Detail -->
+        <test-method signature="DoCreate()[pri:3, instance:test.Khanh.Test_Editing_Delete_VD@75d4a5c2]" started-at="2022-11-25T17:45:06 ICT" name="DoCreate" description="Insert Video" finished-at="2022-11-25T17:45:13 ICT" duration-ms="6080" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:23)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)
+at test.Khanh.Test_Editing_Delete_VD.DoCreate(Test_Editing_Delete_VD.java:115)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoCreate -->
+        <test-method signature="DeleteVideoOnTable()[pri:4, instance:test.Khanh.Test_Editing_Delete_VD@75d4a5c2]" started-at="2022-11-25T17:45:13 ICT" name="DeleteVideoOnTable" description="Delete Video" finished-at="2022-11-25T17:45:20 ICT" duration-ms="7105" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+at org.testng.AssertJUnit.fail(AssertJUnit.java:65)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:23)
+at org.testng.AssertJUnit.assertTrue(AssertJUnit.java:33)
+at test.Khanh.Test_Editing_Delete_VD.DeleteVideoOnTable(Test_Editing_Delete_VD.java:141)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteVideoOnTable -->
+        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:test.Khanh.Test_Editing_Delete_VD@75d4a5c2]" started-at="2022-11-25T17:45:20 ICT" name="suiteTearDown" finished-at="2022-11-25T17:45:20 ICT" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- test.Khanh.Test_Editing_Delete_VD -->
+    </test> <!-- TM3 -->
+  </suite> <!-- TestSuiteInsertVD -->
 </testng-results>
