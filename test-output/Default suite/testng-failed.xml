@@ -3,15 +3,25 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
+      <class name="test.Duong.TestAddFV">
+=======
       <class name="test.Huy.TestDk">
+>>>>>>> main
         <methods>
           <include name="FillRegisterDetails"/>
           <include name="lauchWebsite"/>
           <include name="DoRegister"/>
           <include name="suiteSetUp"/>
           <include name="suiteTearDown"/>
+<<<<<<< HEAD
+          <include name="AddFavoriteDetails"/>
+        </methods>
+      </class> <!-- test.Duong.TestAddFV -->
+=======
         </methods>
       </class> <!-- test.Huy.TestDk -->
+>>>>>>> main
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

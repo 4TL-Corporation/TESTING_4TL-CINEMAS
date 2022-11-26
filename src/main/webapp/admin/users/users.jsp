@@ -82,7 +82,7 @@
 					</div>
 					<div class="card-footer text-muted">
 						<button class="btn btn-primary" type="submit"
-							formaction="UsersManagement/insert">Create</button>
+							formaction="UsersManagement/insert" id="create">Create</button>
 						<button class="btn btn-warning" type="submit"
 							formaction="UsersManagement/update">Update</button>
 						<button class="btn btn-danger" 
@@ -111,7 +111,7 @@
 						<td>${item.admin ? 'Admin' : 'User' }</td>
 						<td><a href="UsersManagement/edit?username=${item.username }"><i
 								class="fa fa-edit" aria-hidden="true"></i> Edit</a> <a
-							href="UsersManagement/delete?username=${item.username }"><i
+							href="UsersManagement/delete?username=${item.username }"  id="delete/${item.username}"><i
 								class="fa fa-trash" aria-hidden="true"></i> Delete</a></td>
 					</tr>
 				</c:forEach>

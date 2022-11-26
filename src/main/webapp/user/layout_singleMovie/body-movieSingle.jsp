@@ -59,14 +59,14 @@
 
 								<c:if test="${btnLike == true }">
 									<a href="LikeVideo?action=like&id=${videoTrailer}"
-										class="parent-btn" id="likeOrDislike"> <i
+										class="parent-btn" id="remove"> <i
 										style="background-color: #dd003f; color: black;"
 										class="ion-heart-broken"></i> Remove Favorite
 									</a>
 								</c:if>
 								<c:if test="${btnLike == false }">
 									<a href="LikeVideo?action=like&id=${videoTrailer}"
-										class="parent-btn"> <i class="ion-heart"></i> Add to
+										class="parent-btn" id="like"> <i class="ion-heart"></i> Add to
 										Favorite
 									</a>
 								</c:if>
