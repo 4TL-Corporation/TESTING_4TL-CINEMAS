@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestSuiteLogin">
+	<test thread-count="5" name="DK1">
+		<parameter name="username" value="huy"></parameter>
+		<parameter name="Fullname" value="leehuy"></parameter>
+		<parameter name="Email" value="huy2084@gmail.com"></parameter>
+		<parameter name="password" value="asd"></parameter>
+		<parameter name="Retype" value="asd"></parameter>
+		<classes>
+			<class name="test.Huy.TestRegister" />
+		</classes>
+	</test> <!-- TestRegister case DK1 -->
+	
+		
+	<test thread-count="5" name="DK2">
+		<parameter name="username" value=""></parameter>
+		<parameter name="Fullname" value=""></parameter>
+		<parameter name="Email" value=""></parameter>
+		<parameter name="password" value=""></parameter>
+		<parameter name="Retype" value=""></parameter>
+		<classes>
+			<class name="test.Huy.TestRegister" />
+		</classes>
+	</test> <!-- TestRegister case DK3 -->
+
+</suite> <!-- Feature -->
+
