@@ -49,7 +49,7 @@ public class TestUserEdit {
 			driver.get(urlue);
 			driver.manage().window().maximize();
 
-			Thread.sleep(2000);
+			Thread.sleep(1000);
 
 			TestNGResults.put("2", new Object[] { 1d, "Open User Editing Detail Page", "Get into the page", "Pass" });
 		} catch (Exception e) {

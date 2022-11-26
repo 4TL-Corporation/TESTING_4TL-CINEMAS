@@ -1,50 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<suite name="Failed suite [TestSuiteInsertVD]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="VE2(failed)">
-    <parameter name="VideoID" value=""/>
-    <parameter name="Description" value=""/>
-    <parameter name="Title" value=""/>
-    <parameter name="Image" value=""/>
-    <parameter name="View" value="0"/>
-    <parameter name="URL" value="http://localhost:8080/ASM-JAVA4/VideosManagementServlet"/>
-    <classes>
-      <class name="test.Khanh.Test_Editing_Delete_VD">
-        <methods>
-          <include name="DoCreate"/>
-          <include name="suiteSetUp"/>
-          <include name="suiteTearDown"/>
-          <include name="DeleteVideoOnTable"/>
-        </methods>
-      </class> <!-- test.Khanh.Test_Editing_Delete_VD -->
-    </classes>
-  </test> <!-- VE2(failed) -->
-  <test thread-count="5" name="VE3(failed)">
-    <parameter name="VideoID" value=""/>
-    <parameter name="Description" value="Wakanda Forever"/>
-    <parameter name="Title" value=""/>
-    <parameter name="Image" value="/src/main/webapp/user/images/uploads/wakanda.jpg"/>
-    <parameter name="View" value="0"/>
-    <parameter name="URL" value="http://localhost:8080/ASM-JAVA4/VideosManagementServlet"/>
-    <classes>
-      <class name="test.Khanh.Test_Editing_Delete_VD">
-        <methods>
-          <include name="DoCreate"/>
-          <include name="suiteSetUp"/>
-          <include name="suiteTearDown"/>
-          <include name="DeleteVideoOnTable"/>
-        </methods>
-      </class> <!-- test.Khanh.Test_Editing_Delete_VD -->
-    </classes>
-  </test> <!-- VE3(failed) -->
-</suite> <!-- Failed suite [TestSuiteInsertVD] -->
-=======
-<suite name="Failed suite [TestSuiteLogin]" guice-stage="DEVELOPMENT">
-=======
 <suite name="Failed suite [TestSuiteUserDelete]" guice-stage="DEVELOPMENT">
->>>>>>> origin/Duong
   <test thread-count="5" name="UE2(failed)">
     <parameter name="Email" value=""/>
     <parameter name="Username" value=""/>
@@ -79,9 +35,4 @@
       </class> <!-- test.Duong.TestUserEdit -->
     </classes>
   </test> <!-- UE3(failed) -->
-<<<<<<< HEAD
-</suite> <!-- Failed suite [TestSuiteLogin] -->
->>>>>>> origin/Duong
-=======
 </suite> <!-- Failed suite [TestSuiteUserDelete] -->
->>>>>>> origin/Duong
