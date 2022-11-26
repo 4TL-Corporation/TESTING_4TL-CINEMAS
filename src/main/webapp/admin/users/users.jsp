@@ -82,7 +82,7 @@
 					</div>
 					<div class="card-footer text-muted">
 						<button class="btn btn-primary" type="submit"
-							formaction="UsersManagement/insert">Create</button>
+							formaction="UsersManagement/insert" id="create">Create</button>
 						<button class="btn btn-warning" type="submit"
 							formaction="UsersManagement/update">Update</button>
 						<button class="btn btn-danger" 
