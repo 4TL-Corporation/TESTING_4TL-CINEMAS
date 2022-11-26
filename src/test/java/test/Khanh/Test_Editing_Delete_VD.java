@@ -41,11 +41,12 @@ public class Test_Editing_Delete_VD {
 	public static String dataPath = "\\Resources\\Data_Khanh\\datafile.properties";
 	public static String locatorPath = "\\Resources\\Data_Khanh\\locator.properties";
 	public static String FileNameExcel = "KhanhResult";
-
+	
+	@Parameters({"URL"})
 	@Test(description = "Open chrome and Open Website", priority = 1)
-	public void OpenWebsite() throws Exception {
+	public void OpenWebsite(String URL) throws Exception {
 		try {
-			driver.get(datafile.getData("url_adminPage"));
+			driver.get(URL);
 			driver.manage().window().maximize();
 			Thread.sleep(1000);
 			TestNGResults.put("2", new Object[] { 1d, "Open chrome and Open Website", "Site gets opened", "Pass" });
