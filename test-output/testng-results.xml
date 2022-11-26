@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="12" passed="8" failed="4" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-26T12:50:03 ICT" name="TestSuiteLogin" finished-at="2022-11-26T12:50:52 ICT" duration-ms="48995">
+  <suite started-at="2022-11-26T12:58:24 ICT" name="TestSuiteUserDelete" finished-at="2022-11-26T12:59:16 ICT" duration-ms="52127">
     <groups>
     </groups>
-    <test started-at="2022-11-26T12:50:03 ICT" name="UE" finished-at="2022-11-26T12:50:14 ICT" duration-ms="11795">
+    <test started-at="2022-11-26T12:58:24 ICT" name="UE" finished-at="2022-11-26T12:58:39 ICT" duration-ms="14831">
       <class name="test.Duong.TestUserEdit">
-        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:test.Duong.TestUserEdit@37afeb11]" started-at="2022-11-26T12:50:03 ICT" name="suiteSetUp" finished-at="2022-11-26T12:50:05 ICT" duration-ms="2507" status="PASS">
+        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:test.Duong.TestUserEdit@37afeb11]" started-at="2022-11-26T12:58:24 ICT" name="suiteSetUp" finished-at="2022-11-26T12:58:28 ICT" duration-ms="4060" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteSetUp -->
-        <test-method signature="lauchWebsite(java.lang.String)[pri:1, instance:test.Duong.TestUserEdit@37afeb11]" started-at="2022-11-26T12:50:05 ICT" name="lauchWebsite" description="Open TestNG Demo Website for Login Test" finished-at="2022-11-26T12:50:09 ICT" duration-ms="3727" status="PASS">
+        <test-method signature="lauchWebsite(java.lang.String)[pri:1, instance:test.Duong.TestUserEdit@37afeb11]" started-at="2022-11-26T12:58:28 ICT" name="lauchWebsite" description="Open TestNG Demo Website for Login Test" finished-at="2022-11-26T12:58:33 ICT" duration-ms="4740" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,7 +22,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lauchWebsite -->
-        <test-method signature="Fill_UserEdit_Detail(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test.Duong.TestUserEdit@37afeb11]" started-at="2022-11-26T12:50:09 ICT" name="Fill_UserEdit_Detail" description="Fill data to form Video Editing" finished-at="2022-11-26T12:50:09 ICT" duration-ms="450" status="PASS">
+        <test-method signature="Fill_UserEdit_Detail(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test.Duong.TestUserEdit@37afeb11]" started-at="2022-11-26T12:58:33 ICT" name="Fill_UserEdit_Detail" description="Fill data to form Video Editing" finished-at="2022-11-26T12:58:33 ICT" duration-ms="451" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,27 +48,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Fill_UserEdit_Detail -->
-        <test-method signature="DoCreate()[pri:3, instance:test.Duong.TestUserEdit@37afeb11]" started-at="2022-11-26T12:50:09 ICT" name="DoCreate" description="Insert User" finished-at="2022-11-26T12:50:11 ICT" duration-ms="1780" status="PASS">
+        <test-method signature="DoCreate()[pri:3, instance:test.Duong.TestUserEdit@37afeb11]" started-at="2022-11-26T12:58:33 ICT" name="DoCreate" description="Insert User" finished-at="2022-11-26T12:58:35 ICT" duration-ms="1634" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoCreate -->
-        <test-method signature="DeleteUserOnTable()[pri:4, instance:test.Duong.TestUserEdit@37afeb11]" started-at="2022-11-26T12:50:11 ICT" name="DeleteUserOnTable" description="Delete User" finished-at="2022-11-26T12:50:14 ICT" duration-ms="2949" status="PASS">
+        <test-method signature="DeleteUserOnTable()[pri:4, instance:test.Duong.TestUserEdit@37afeb11]" started-at="2022-11-26T12:58:35 ICT" name="DeleteUserOnTable" description="Delete User" finished-at="2022-11-26T12:58:38 ICT" duration-ms="3143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeleteUserOnTable -->
-        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:test.Duong.TestUserEdit@37afeb11]" started-at="2022-11-26T12:50:14 ICT" name="suiteTearDown" finished-at="2022-11-26T12:50:14 ICT" duration-ms="336" status="PASS">
+        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:test.Duong.TestUserEdit@37afeb11]" started-at="2022-11-26T12:58:38 ICT" name="suiteTearDown" finished-at="2022-11-26T12:58:39 ICT" duration-ms="745" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteTearDown -->
       </class> <!-- test.Duong.TestUserEdit -->
     </test> <!-- UE -->
-    <test started-at="2022-11-26T12:50:14 ICT" name="UE2" finished-at="2022-11-26T12:50:33 ICT" duration-ms="18404">
+    <test started-at="2022-11-26T12:58:39 ICT" name="UE2" finished-at="2022-11-26T12:58:57 ICT" duration-ms="18742">
       <class name="test.Duong.TestUserEdit">
-        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:test.Duong.TestUserEdit@3023df74]" started-at="2022-11-26T12:50:14 ICT" name="suiteSetUp" finished-at="2022-11-26T12:50:15 ICT" duration-ms="775" status="PASS">
+        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:test.Duong.TestUserEdit@3023df74]" started-at="2022-11-26T12:58:39 ICT" name="suiteSetUp" finished-at="2022-11-26T12:58:40 ICT" duration-ms="1217" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteSetUp -->
-        <test-method signature="lauchWebsite(java.lang.String)[pri:1, instance:test.Duong.TestUserEdit@3023df74]" started-at="2022-11-26T12:50:15 ICT" name="lauchWebsite" description="Open TestNG Demo Website for Login Test" finished-at="2022-11-26T12:50:19 ICT" duration-ms="3760" status="PASS">
+        <test-method signature="lauchWebsite(java.lang.String)[pri:1, instance:test.Duong.TestUserEdit@3023df74]" started-at="2022-11-26T12:58:40 ICT" name="lauchWebsite" description="Open TestNG Demo Website for Login Test" finished-at="2022-11-26T12:58:43 ICT" duration-ms="3582" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,7 +79,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lauchWebsite -->
-        <test-method signature="Fill_UserEdit_Detail(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test.Duong.TestUserEdit@3023df74]" started-at="2022-11-26T12:50:19 ICT" name="Fill_UserEdit_Detail" description="Fill data to form Video Editing" finished-at="2022-11-26T12:50:19 ICT" duration-ms="325" status="PASS">
+        <test-method signature="Fill_UserEdit_Detail(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test.Duong.TestUserEdit@3023df74]" started-at="2022-11-26T12:58:43 ICT" name="Fill_UserEdit_Detail" description="Fill data to form Video Editing" finished-at="2022-11-26T12:58:44 ICT" duration-ms="316" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -105,7 +105,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Fill_UserEdit_Detail -->
-        <test-method signature="DoCreate()[pri:3, instance:test.Duong.TestUserEdit@3023df74]" started-at="2022-11-26T12:50:19 ICT" name="DoCreate" description="Insert User" finished-at="2022-11-26T12:50:25 ICT" duration-ms="6120" status="FAIL">
+        <test-method signature="DoCreate()[pri:3, instance:test.Duong.TestUserEdit@3023df74]" started-at="2022-11-26T12:58:44 ICT" name="DoCreate" description="Insert User" finished-at="2022-11-26T12:58:50 ICT" duration-ms="6114" status="FAIL">
           <exception class="java.lang.AssertionError">
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: 
@@ -147,7 +147,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoCreate -->
-        <test-method signature="DeleteUserOnTable()[pri:4, instance:test.Duong.TestUserEdit@3023df74]" started-at="2022-11-26T12:50:25 ICT" name="DeleteUserOnTable" description="Delete User" finished-at="2022-11-26T12:50:33 ICT" duration-ms="7082" status="FAIL">
+        <test-method signature="DeleteUserOnTable()[pri:4, instance:test.Duong.TestUserEdit@3023df74]" started-at="2022-11-26T12:58:50 ICT" name="DeleteUserOnTable" description="Delete User" finished-at="2022-11-26T12:58:57 ICT" duration-ms="7131" status="FAIL">
           <exception class="java.lang.AssertionError">
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: 
@@ -189,19 +189,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeleteUserOnTable -->
-        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:test.Duong.TestUserEdit@3023df74]" started-at="2022-11-26T12:50:33 ICT" name="suiteTearDown" finished-at="2022-11-26T12:50:33 ICT" duration-ms="333" status="PASS">
+        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:test.Duong.TestUserEdit@3023df74]" started-at="2022-11-26T12:58:57 ICT" name="suiteTearDown" finished-at="2022-11-26T12:58:57 ICT" duration-ms="371" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteTearDown -->
       </class> <!-- test.Duong.TestUserEdit -->
     </test> <!-- UE2 -->
-    <test started-at="2022-11-26T12:50:33 ICT" name="UE3" finished-at="2022-11-26T12:50:52 ICT" duration-ms="18764">
+    <test started-at="2022-11-26T12:58:57 ICT" name="UE3" finished-at="2022-11-26T12:59:16 ICT" duration-ms="18516">
       <class name="test.Duong.TestUserEdit">
-        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:test.Duong.TestUserEdit@6302bbb1]" started-at="2022-11-26T12:50:33 ICT" name="suiteSetUp" finished-at="2022-11-26T12:50:34 ICT" duration-ms="1140" status="PASS">
+        <test-method is-config="true" signature="suiteSetUp()[pri:0, instance:test.Duong.TestUserEdit@6302bbb1]" started-at="2022-11-26T12:58:57 ICT" name="suiteSetUp" finished-at="2022-11-26T12:58:58 ICT" duration-ms="959" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteSetUp -->
-        <test-method signature="lauchWebsite(java.lang.String)[pri:1, instance:test.Duong.TestUserEdit@6302bbb1]" started-at="2022-11-26T12:50:34 ICT" name="lauchWebsite" description="Open TestNG Demo Website for Login Test" finished-at="2022-11-26T12:50:38 ICT" duration-ms="3701" status="PASS">
+        <test-method signature="lauchWebsite(java.lang.String)[pri:1, instance:test.Duong.TestUserEdit@6302bbb1]" started-at="2022-11-26T12:58:58 ICT" name="lauchWebsite" description="Open TestNG Demo Website for Login Test" finished-at="2022-11-26T12:59:02 ICT" duration-ms="3588" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -212,7 +212,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lauchWebsite -->
-        <test-method signature="Fill_UserEdit_Detail(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test.Duong.TestUserEdit@6302bbb1]" started-at="2022-11-26T12:50:38 ICT" name="Fill_UserEdit_Detail" description="Fill data to form Video Editing" finished-at="2022-11-26T12:50:38 ICT" duration-ms="399" status="PASS">
+        <test-method signature="Fill_UserEdit_Detail(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:test.Duong.TestUserEdit@6302bbb1]" started-at="2022-11-26T12:59:02 ICT" name="Fill_UserEdit_Detail" description="Fill data to form Video Editing" finished-at="2022-11-26T12:59:02 ICT" duration-ms="343" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -238,7 +238,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Fill_UserEdit_Detail -->
-        <test-method signature="DoCreate()[pri:3, instance:test.Duong.TestUserEdit@6302bbb1]" started-at="2022-11-26T12:50:38 ICT" name="DoCreate" description="Insert User" finished-at="2022-11-26T12:50:44 ICT" duration-ms="6106" status="FAIL">
+        <test-method signature="DoCreate()[pri:3, instance:test.Duong.TestUserEdit@6302bbb1]" started-at="2022-11-26T12:59:02 ICT" name="DoCreate" description="Insert User" finished-at="2022-11-26T12:59:08 ICT" duration-ms="6122" status="FAIL">
           <exception class="java.lang.AssertionError">
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: 
@@ -280,7 +280,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DoCreate -->
-        <test-method signature="DeleteUserOnTable()[pri:4, instance:test.Duong.TestUserEdit@6302bbb1]" started-at="2022-11-26T12:50:44 ICT" name="DeleteUserOnTable" description="Delete User" finished-at="2022-11-26T12:50:51 ICT" duration-ms="7094" status="FAIL">
+        <test-method signature="DeleteUserOnTable()[pri:4, instance:test.Duong.TestUserEdit@6302bbb1]" started-at="2022-11-26T12:59:08 ICT" name="DeleteUserOnTable" description="Delete User" finished-at="2022-11-26T12:59:16 ICT" duration-ms="7117" status="FAIL">
           <exception class="java.lang.AssertionError">
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError: 
@@ -322,11 +322,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeleteUserOnTable -->
-        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:test.Duong.TestUserEdit@6302bbb1]" started-at="2022-11-26T12:50:51 ICT" name="suiteTearDown" finished-at="2022-11-26T12:50:52 ICT" duration-ms="317" status="PASS">
+        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:test.Duong.TestUserEdit@6302bbb1]" started-at="2022-11-26T12:59:16 ICT" name="suiteTearDown" finished-at="2022-11-26T12:59:16 ICT" duration-ms="377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteTearDown -->
       </class> <!-- test.Duong.TestUserEdit -->
     </test> <!-- UE3 -->
-  </suite> <!-- TestSuiteLogin -->
+  </suite> <!-- TestSuiteUserDelete -->
 </testng-results>
