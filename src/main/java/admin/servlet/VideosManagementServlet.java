@@ -84,7 +84,6 @@ public class VideosManagementServlet extends HttpServlet {
 			List<Video> list = dao.findAll();
 
 			req.setAttribute("videos", list);
-
 		} catch (Exception e) {
 			e.printStackTrace();
 			req.setAttribute("error", "Error:" + e.getMessage());
@@ -112,7 +111,6 @@ public class VideosManagementServlet extends HttpServlet {
 		}
 		findAll(req, resp);
 		PageInfo.prepareAndForward(req, resp, PageType.VIDEO_MANAGEMENT_PAGE);
-
 	}
 
 	protected void delete(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
