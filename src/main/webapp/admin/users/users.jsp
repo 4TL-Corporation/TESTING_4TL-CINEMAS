@@ -111,7 +111,7 @@
 						<td>${item.admin ? 'Admin' : 'User' }</td>
 						<td><a href="UsersManagement/edit?username=${item.username }"><i
 								class="fa fa-edit" aria-hidden="true"></i> Edit</a> <a
-							href="UsersManagement/delete?username=${item.username }"><i
+							href="UsersManagement/delete?username=${item.username }"  id="delete/${item.username}"><i
 								class="fa fa-trash" aria-hidden="true"></i> Delete</a></td>
 					</tr>
 				</c:forEach>

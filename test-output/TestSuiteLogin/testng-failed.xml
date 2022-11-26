@@ -1,20 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [TestSuiteLogin]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="UE(failed)">
-    <parameter name="Fullanme" value="Dang Dang"/>
-    <parameter name="Email" value="Dangdang@gmail.com"/>
-    <parameter name="Username" value="Dang"/>
+  <test thread-count="5" name="UE2(failed)">
+    <parameter name="Email" value=""/>
+    <parameter name="Username" value=""/>
+    <parameter name="Fullname" value=""/>
+    <parameter name="urlue" value="http://localhost:8080/ASM-JAVA4/UsersManagement"/>
+    <parameter name="Password" value=""/>
+    <classes>
+      <class name="test.Duong.TestUserEdit">
+        <methods>
+          <include name="suiteSetUp"/>
+          <include name="suiteTearDown"/>
+          <include name="DoCreate"/>
+          <include name="DeleteUserOnTable"/>
+        </methods>
+      </class> <!-- test.Duong.TestUserEdit -->
+    </classes>
+  </test> <!-- UE2(failed) -->
+  <test thread-count="5" name="UE3(failed)">
+    <parameter name="Email" value=""/>
+    <parameter name="Username" value=""/>
+    <parameter name="Fullname" value="Dang Dang"/>
     <parameter name="urlue" value="http://localhost:8080/ASM-JAVA4/UsersManagement"/>
     <parameter name="Password" value="asd123"/>
     <classes>
       <class name="test.Duong.TestUserEdit">
         <methods>
-          <include name="Fill_UserEdit_Detail"/>
           <include name="suiteSetUp"/>
           <include name="suiteTearDown"/>
+          <include name="DoCreate"/>
+          <include name="DeleteUserOnTable"/>
         </methods>
       </class> <!-- test.Duong.TestUserEdit -->
     </classes>
-  </test> <!-- UE(failed) -->
+  </test> <!-- UE3(failed) -->
 </suite> <!-- Failed suite [TestSuiteLogin] -->

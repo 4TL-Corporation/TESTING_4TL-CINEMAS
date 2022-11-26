@@ -97,7 +97,7 @@ public class TestUserEdit {
 			if (rs_notice.equals("error")) {
 				AssertJUnit.assertTrue(false);
 			}
-			
+
 			TestNGResults.put("4", new Object[] { 3d, "Click create and show notice 'Video inserted' ",
 					"Create successfully", "Pass" });
 		} catch (Exception e) {
@@ -106,6 +106,33 @@ public class TestUserEdit {
 			AssertJUnit.assertTrue(false);
 		}
 	}
+
+	@Test(description = "Delete User", priority = 4)
+	public void DeleteUserOnTable() throws Exception {
+		try {
+			Thread.sleep(1000);
+			// Click on the tab button
+			WebElement userList = driver.findElement(By.xpath("//*[@id=\"userList-tab\"]"));
+			userList.click();
+			Thread.sleep(1000);
+			// Click on the delete button
+			WebElement delete_btn = driver.findElement(By.xpath("//*[@id=\"delete/Dang\"]"));
+			delete_btn.click();
+
+			String rs_notice = driver.findElement(uiMap.getLocator("alert")).getAttribute("id");
+			if (rs_notice.equals("error")) {
+				AssertJUnit.assertTrue(false);
+			}
+
+			TestNGResults.put("5", new Object[] { 4d, "Click create and show notice 'Video inserted' ",
+					"Create successfully", "Pass" });
+		} catch (Exception e) {
+			TestNGResults.put("5", new Object[] { 4d, "Click create and show notice 'Video inserted' ",
+					"Create successfully", "Fail" });
+			AssertJUnit.assertTrue(false);
+		}
+	}
+
 	@BeforeClass(alwaysRun = true)
 	public void suiteSetUp() throws Exception {
 		// create a new work book

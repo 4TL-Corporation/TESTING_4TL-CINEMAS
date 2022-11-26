@@ -11,5 +11,28 @@
 			<class name="test.Duong.TestUserEdit" />
 		</classes>
 	</test> <!-- TestLogin case DN1 -->
+	
+		<test thread-count="5" name="UE2">
+		<parameter name="urlue" value="http://localhost:8080/ASM-JAVA4/UsersManagement"></parameter>
+		<parameter name="Username" value=""></parameter>
+		<parameter name="Fullname" value=""></parameter>
+		<parameter name="Password" value=""></parameter>
+		<parameter name="Email" value=""></parameter>
+		<classes>
+			<class name="test.Duong.TestUserEdit" />
+		</classes>
+	</test> <!-- TestLogin case DN1 -->
+	
+		<test thread-count="5" name="UE3">
+		<parameter name="urlue" value="http://localhost:8080/ASM-JAVA4/UsersManagement"></parameter>
+		<parameter name="Username" value=""></parameter>
+		<parameter name="Fullname" value="Dang Dang"></parameter>
+		<parameter name="Password" value="asd123"></parameter>
+		<parameter name="Email" value=""></parameter>
+		<classes>
+			<class name="test.Duong.TestUserEdit" />
+		</classes>
+	</test> <!-- TestLogin case DN1 -->
+	
 
 </suite> <!-- Feature -->

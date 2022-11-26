@@ -1,96 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<<<<<<< HEAD
 <suite name="Failed suite [TestSuiteLogin]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="UE(failed)">
-    <parameter name="Fullanme" value="Dang Dang"/>
-    <parameter name="Email" value="Dangdang@gmail.com"/>
-    <parameter name="Username" value="Dang"/>
+  <test thread-count="5" name="UE2(failed)">
+    <parameter name="Email" value=""/>
+    <parameter name="Username" value=""/>
+    <parameter name="Fullname" value=""/>
+    <parameter name="urlue" value="http://localhost:8080/ASM-JAVA4/UsersManagement"/>
+    <parameter name="Password" value=""/>
+    <classes>
+      <class name="test.Duong.TestUserEdit">
+        <methods>
+          <include name="suiteSetUp"/>
+          <include name="suiteTearDown"/>
+          <include name="DoCreate"/>
+          <include name="DeleteUserOnTable"/>
+        </methods>
+      </class> <!-- test.Duong.TestUserEdit -->
+    </classes>
+  </test> <!-- UE2(failed) -->
+  <test thread-count="5" name="UE3(failed)">
+    <parameter name="Email" value=""/>
+    <parameter name="Username" value=""/>
+    <parameter name="Fullname" value="Dang Dang"/>
     <parameter name="urlue" value="http://localhost:8080/ASM-JAVA4/UsersManagement"/>
     <parameter name="Password" value="asd123"/>
     <classes>
       <class name="test.Duong.TestUserEdit">
         <methods>
-          <include name="Fill_UserEdit_Detail"/>
           <include name="suiteSetUp"/>
           <include name="suiteTearDown"/>
+          <include name="DoCreate"/>
+          <include name="DeleteUserOnTable"/>
         </methods>
       </class> <!-- test.Duong.TestUserEdit -->
     </classes>
-  </test> <!-- UE(failed) -->
+  </test> <!-- UE3(failed) -->
 </suite> <!-- Failed suite [TestSuiteLogin] -->
-=======
-<<<<<<< HEAD
-<suite name="Failed suite [TestSuiteInsertVD]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="TM2(failed)">
-    <parameter name="VideoID" value=""/>
-    <parameter name="Description" value=""/>
-    <parameter name="Title" value=""/>
-    <parameter name="Image" value=""/>
-    <parameter name="View" value="0"/>
-=======
-<suite name="Failed suite [TestSuiteRegister]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="DK1(failed)">
-    <parameter name="password" value="asd"/>
-    <parameter name="Email" value="huy2084@gmail.com"/>
-    <parameter name="Fullname" value="leehuy"/>
-    <parameter name="Retype" value="asd"/>
-    <parameter name="username" value="huy"/>
->>>>>>> origin/Huy
-    <classes>
-      <class name="test.Khanh.Test_Editing_Delete_VD">
-        <methods>
-<<<<<<< HEAD
-          <include name="DoCreate"/>
-=======
-          <include name="lauchWebsite"/>
-          <include name="DoRegister"/>
->>>>>>> origin/Huy
-          <include name="suiteSetUp"/>
-          <include name="suiteTearDown"/>
-          <include name="DeleteVideoOnTable"/>
-        </methods>
-      </class> <!-- test.Khanh.Test_Editing_Delete_VD -->
-    </classes>
-<<<<<<< HEAD
-  </test> <!-- TM2(failed) -->
-  <test thread-count="5" name="TM3(failed)">
-    <parameter name="VideoID" value=""/>
-    <parameter name="Description" value="Wakanda Forever"/>
-    <parameter name="Title" value=""/>
-    <parameter name="Image" value="/src/main/webapp/user/images/uploads/wakanda.jpg"/>
-    <parameter name="View" value="0"/>
-    <classes>
-      <class name="test.Khanh.Test_Editing_Delete_VD">
-        <methods>
-          <include name="DoCreate"/>
-          <include name="suiteSetUp"/>
-          <include name="suiteTearDown"/>
-          <include name="DeleteVideoOnTable"/>
-        </methods>
-      </class> <!-- test.Khanh.Test_Editing_Delete_VD -->
-    </classes>
-  </test> <!-- TM3(failed) -->
-</suite> <!-- Failed suite [TestSuiteInsertVD] -->
-=======
-  </test> <!-- DK1(failed) -->
-  <test thread-count="5" name="DK2(failed)">
-    <parameter name="password" value=""/>
-    <parameter name="Email" value=""/>
-    <parameter name="Fullname" value=""/>
-    <parameter name="Retype" value=""/>
-    <parameter name="username" value=""/>
-    <classes>
-      <class name="test.Huy.TestDk">
-        <methods>
-          <include name="lauchWebsite"/>
-          <include name="DoRegister"/>
-          <include name="suiteSetUp"/>
-          <include name="suiteTearDown"/>
-        </methods>
-      </class> <!-- test.Huy.TestDk -->
-    </classes>
-  </test> <!-- DK2(failed) -->
-</suite> <!-- Failed suite [TestSuiteRegister] -->
->>>>>>> origin/Huy
->>>>>>> main
