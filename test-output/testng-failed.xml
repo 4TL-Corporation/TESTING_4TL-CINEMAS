@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<<<<<<< HEAD
 <suite name="Failed suite [TestSuiteInsertVD]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="TM2(failed)">
     <parameter name="VideoID" value=""/>
@@ -36,3 +37,20 @@
     </classes>
   </test> <!-- TM3(failed) -->
 </suite> <!-- Failed suite [TestSuiteInsertVD] -->
+=======
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="test.Huy.TestDk">
+        <methods>
+          <include name="FillRegisterDetails"/>
+          <include name="lauchWebsite"/>
+          <include name="DoRegister"/>
+          <include name="suiteSetUp"/>
+          <include name="suiteTearDown"/>
+        </methods>
+      </class> <!-- test.Huy.TestDk -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
+>>>>>>> origin/Huy

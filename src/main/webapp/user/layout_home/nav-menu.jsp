@@ -106,7 +106,7 @@
 				<li><a href="#">Help</a></li>
 				<c:if test="${empty user}">
 					<li class="loginLink"><a href="#">LOG In</a></li>
-					<li class="btn signupLink"><a href="#">sign up</a></li>
+					<li class="signupLink"><a href="#">sign up</a></li>
 				</c:if>
 				<c:if test="${not empty user }">
 					<li class=""><a href="Logoff">Logout</a></li>
